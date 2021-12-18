@@ -6,7 +6,7 @@ def equation_1(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_2(veriable_s, veriable_t, veriable_x)
-    (1 + Math.sqrt(veriable_s * veriable_x)) / 
+  (1 + Math.sqrt(veriable_s * veriable_x)) / 
     (1 + veriable_x.pow(3).pow(veriable_t))
 end
 
