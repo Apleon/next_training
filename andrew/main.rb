@@ -22,7 +22,7 @@ def equation_4(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_5(veriable_s, veriable_t, veriable_x)
-  (veriable_x.pow(veriable_t)) / 
+  veriable_x.pow(veriable_t) / 
     (Math.sqrt(veriable_x.pow(3) + 1) + Math.log10(veriable_s))
 end
 
