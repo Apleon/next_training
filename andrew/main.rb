@@ -1,8 +1,8 @@
 #task1.1
+
 def equation_1(veriable_s, veriable_t, veriable_x)
     (Math.tan(veriable_x.pow(2)) + Math.sqrt(veriable_x)) / 
     (veriable_t * Math.log2(veriable_x + veriable_s))
-
 end
 
 def equation_2(veriable_s, veriable_t, veriable_x)
@@ -42,7 +42,7 @@ def equation_8(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_9(veriable_t, veriable_x)
-    (veriable_x.pow(2)) / 
+    veriable_x.pow(2) / 
     (Math.log10(veriable_x.pow(veriable_t))) + 
      (Math.cos(veriable_x.pow(veriable_t).pow(2)))
 end
