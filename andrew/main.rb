@@ -11,7 +11,7 @@ def equation_2(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_3(veriable_s, veriable_t, veriable_x)
-  (Math.exp(0.5 * veriable_x)) / 
+  Math.exp(0.5 * veriable_x) / 
     (Math.sqrt(veriable_x + veriable_s * 
       Math.log10(veriable_x.pow(veriable_t))))
 end
@@ -53,12 +53,12 @@ def equation_10(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_11(veriable_s, veriable_t, veriable_x)
-  Math.sqrt(veriable_t + veriable_x.pow(3)) ** veriable_s / 
+  Math.sqrt(veriable_t + veriable_x.pow(3))**veriable_s / 
     Math.log10(veriable_x.pow(veriable_t))
 end
 
 def equation_12(veriable_s, veriable_t, veriable_x)
-  (1 + veriable_x.pow(2) ** veriable_t) / 
+  (1 + veriable_x.pow(2)**veriable_t) / 
     Math.exp(Math.sin(veriable_x) + veriable_s)
 end
 
