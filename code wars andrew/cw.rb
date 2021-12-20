@@ -22,7 +22,7 @@ end
 
 #Counting sheep... 8kyu
 #
-def count_sheeps array
+def count_sheeps(array)
   array.count(true)
 end
 
