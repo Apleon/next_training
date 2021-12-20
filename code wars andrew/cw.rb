@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-#Student's Final Grade 8kyu
+# Student's Final Grade 8kyu
 #
 def final_grade(exam, projects)
   if exam > 90 || projects > 10
@@ -14,28 +14,28 @@ def final_grade(exam, projects)
   end
 end
 
-#Convert a Number to a String! 8kyu
+# Convert a Number to a String! 8kyu
 #
 def number_to_string(num)
   num.to_s
 end
 
-#Counting sheep... 8kyu
+# Counting sheep... 8kyu
 #
 def count_sheeps(array)
   array.count(true)
 end
 
-#Century From Year 8kyu
+# Century From Year 8kyu
 #
 def century(year)
   (year - 1) / 100 + 1
 end
 
-#Even or Odd 8kyu
+# Even or Odd 8kyu
 #
 def even_or_odd(number)
-  if number % 2 == 0
+  if (number % 2).zero
     puts 'Even'
   else
     puts 'Odd'
