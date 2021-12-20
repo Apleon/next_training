@@ -17,7 +17,7 @@ def equation_3(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_4(veriable_s, veriable_t, veriable_x)
-  (Math.atan(Math.sqrt(veriable_x.pow(veriable_t)))) / 
+  Math.atan(Math.sqrt(veriable_x.pow(veriable_t))) / 
     (veriable_x.pow(2) + veriable_s * Math.sin(Math.log10(veriable_x)))
 end
 
