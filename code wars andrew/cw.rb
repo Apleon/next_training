@@ -2,14 +2,14 @@
 #
 def final_grade(exam, projects)
   if exam > 90 or projects > 10
-    return 100
-  elsif exam > 75 and projects >= 5
-    return 90
-  elsif exam >= 50 and projects >= 2
-    return 75
+    100
+  elsif exam > 75 && projects >= 5
+    90
+  elsif exam >= 50 && projects >= 2
+    75
   else
-    return 0
-    end
+    0
+  end
 end
 
 #Convert a Number to a String! 8kyu
@@ -34,10 +34,10 @@ end
 #
 def even_or_odd(number)
   if number % 2 == 0
-    return "Even"
+    puts "Even"
   else
-    return "Odd"
-    end
+    puts "Odd"
+  end
 end
 
 
