@@ -11,7 +11,7 @@ def equation_2(veriable_s, veriable_t, veriable_x)
 end
 
 def equation_3(veriable_s, veriable_t, veriable_x)
-  Math.exp(0.5 * veriable_x) / 
+  Math.exp(0.5 * veriable_x / 
     (Math.sqrt(veriable_x + veriable_s * 
       Math.log10(veriable_x.pow(veriable_t))))
 end
