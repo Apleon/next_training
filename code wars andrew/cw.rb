@@ -1,7 +1,9 @@
+# frozen_string_literal: true.
+
 #Student's Final Grade 8kyu
 #
 def final_grade(exam, projects)
-  if exam > 90 or projects > 10
+  if exam > 90 || projects > 10
     100
   elsif exam > 75 && projects >= 5
     90
