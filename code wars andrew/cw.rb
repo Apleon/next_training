@@ -1,4 +1,4 @@
-# frozen_string_literal: true.
+# frozen_string_literal: true
 
 #Student's Final Grade 8kyu
 #
@@ -36,9 +36,9 @@ end
 #
 def even_or_odd(number)
   if number % 2 == 0
-    puts "Even"
+    puts 'Even'
   else
-    puts "Odd"
+    puts 'Odd'
   end
 end
 
