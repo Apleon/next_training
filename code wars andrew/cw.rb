@@ -42,12 +42,36 @@ def even_or_odd(number)
   end
 end
 
+# Convert boolean values to strings 'Yes' or 'No' 8kyu
+#
+def bool_to_word(bool) 
+  if (bool) == true
+    'Yes'
+  else
+    'No'
+  end  
+end
 
+# Basic Mathematical Operations 8kyu
+#
+def basic_op(operator, value_1, value_2)
+  if operator == "+"
+     value_1 + value_2
+  elsif operator == "-"
+     value_1 - value_2
+  elsif operator == "*"
+     value_1 * value_2
+  elsif operator == "/"
+      value_1 / value_2
+  end
+end
 
-
-
-
-
-
-
-
+# Is boy gonna survive? 8kyu
+#
+def hero(bullets, dragons)
+  if bullets >= dragons * 2
+    true
+  else
+    return false
+  end
+end
