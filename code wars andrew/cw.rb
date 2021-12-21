@@ -72,6 +72,6 @@ def hero(bullets, dragons)
   if bullets >= dragons * 2
     true
   else
-    return false
+    false
   end
 end
