@@ -44,8 +44,8 @@ end
 
 # Convert boolean values to strings 'Yes' or 'No' 8kyu
 #
-def bool_to_word(bool) 
-  if (bool) == true
+def bool_to_word(bool)
+  if bool == true
     'Yes'
   else
     'No'
@@ -54,15 +54,15 @@ end
 
 # Basic Mathematical Operations 8kyu
 #
-def basic_op(operator, value_1, value_2)
-  if operator == "+"
-     value_1 + value_2
-  elsif operator == "-"
-     value_1 - value_2
-  elsif operator == "*"
-     value_1 * value_2
-  elsif operator == "/"
-      value_1 / value_2
+def basic_op(operator, value1, value2)
+  if operator == '+'
+     value1 + value2
+  elsif operator == '-'
+     value1 - value2
+  elsif operator == '*'
+     value1 * value2
+  elsif operator == '/'
+      value1 / value2
   end
 end
 
