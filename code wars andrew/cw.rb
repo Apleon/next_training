@@ -78,7 +78,7 @@ end
 
 # Is this a triangle? 7kyu
 #
-def is_triangle(side_a, side_b, side_c)
+def triangle(side_a, side_b, side_c)
   return side_a + side_b > side_c &&
   side_a + side_c > side_b &&
   side_b + side_c > side_a
@@ -97,7 +97,7 @@ def validate_pin(pin)
     true
   elsif pin.length == 6 && pin =~ /^[0-9] * $/
     true
-  elsif pin =~ /^[a-z] * $/ || pin.length == 0
+  elsif pin =~ /^[a-z] * $/ || pin.empty
     false
   else 
     false
