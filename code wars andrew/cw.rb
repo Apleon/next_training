@@ -93,11 +93,11 @@ end
 # Regex validate PIN code
 #
 def validate_pin(pin)
-  if pin.length == 4 && pin =~ /^[0-9]*$/
+  if pin.length == 4 && pin =~ /^[0-9] * $/
     true
-  elsif pin.length == 6 && pin =~ /^[0-9]*$/
+  elsif pin.length == 6 && pin =~ /^[0-9] * $/
     true
-  elsif pin =~ /^[a-z]*$/ || pin.length == 0
+  elsif pin =~ /^[a-z] * $/ || pin.length == 0
     false
   else 
     false
