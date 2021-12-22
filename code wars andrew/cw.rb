@@ -75,3 +75,31 @@ def hero(bullets, dragons)
     false
   end
 end
+
+# Is this a triangle? 7kyu
+#
+def is_triangle(side_a, side_b, side_c)
+  return side_a + side_b > side_c &&
+  side_a + side_c > side_b &&
+  side_b + side_c > side_a
+end
+
+# Reversed Strings 8kyu
+#
+def solution(str)
+  return str.reverse
+end
+
+# Regex validate PIN code
+#
+def validate_pin(pin)
+  if pin.length == 4 && pin =~ /^[0-9]*$/
+    true
+  elsif pin.length == 6 && pin =~ /^[0-9]*$/
+    true
+  elsif pin =~ /^[a-z]*$/ || pin.length == 0
+    false
+  else 
+    false
+  end
+end
