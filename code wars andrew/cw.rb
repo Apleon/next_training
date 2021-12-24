@@ -87,7 +87,7 @@ end
 # Reversed Strings 8kyu
 #
 def solution(str)
-   str.reverse
+  str.reverse
 end
 
 # Regex validate PIN code
