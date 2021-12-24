@@ -109,7 +109,7 @@ end
 def calculate_years(principal, interest, tax, desired)
   years = 0
   while principal < desired
-    years += 1
+    years = year + 1
     total_interest = principal * interest
     interest_tax = total_interest * tax
     principal = principal + (total_interest - interest_tax)
