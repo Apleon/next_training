@@ -87,7 +87,7 @@ end
 # Reversed Strings 8kyu
 #
 def solution(str)
-  return str.reverse
+   str.reverse
 end
 
 # Regex validate PIN code
@@ -101,5 +101,28 @@ def validate_pin(pin)
     false
   else 
     false
+  end
+end
+
+# Calculation of interest in the bank
+#
+def calculate_years(principal, interest, tax, desired)
+  years = 0
+  while principal < desired
+    years += 1
+    total_interest = principal * interest
+    interest_tax = total_interest * tax
+    principal = principal + (total_interest - interest_tax)
+  end
+  years
+end
+
+# Sort Numbers
+#
+def solution(nums)
+  if nums == nil
+    []
+  else 
+    nums.sort
   end
 end

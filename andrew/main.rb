@@ -1,5 +1,7 @@
-#task1.1
+# frozen_string_literal: true
 
+#task1.1
+#
 def equation_1(veriable_s, veriable_t, veriable_x)
   (Math.tan(veriable_x.pow(2)) + Math.sqrt(veriable_x)) / 
     (veriable_t * Math.log2(veriable_x + veriable_s))
