@@ -121,7 +121,6 @@ end
 #
 def solution_2(nums)
   if nums.nil?
-    
     []
   else 
     nums.sort
