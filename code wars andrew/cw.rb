@@ -130,17 +130,17 @@ end
 # The highest profit wins! 7kyu
 #
 def min_max(lst)
-  return lst.minmax
+  lst.minmax
 end
 
 # Repeter 7kyu
 #
-def repeater(string, n)
-  string * n
+def repeater(string, number)
+  string * number
 end
 
 # Remove String Spaces 8kyu
 # 
 def no_space(ver_x)
-  x.delete ' '
+  ver_x.delete ' '
 end
