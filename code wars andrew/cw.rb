@@ -90,7 +90,7 @@ def solution(str)
   str.reverse
 end
 
-# Regex validate PIN code
+# Regex validate PIN code 7kyu
 #
 def validate_pin(pin)
   if pin.length == 4 && pin =~ /^[0-9] * $/
@@ -104,7 +104,7 @@ def validate_pin(pin)
   end
 end
 
-# Calculation of interest in the bank
+# Calculation of interest in the bank 7 kyu
 #
 def calculate_years(principal, interest, tax, desired)
   years = 0
@@ -117,7 +117,7 @@ def calculate_years(principal, interest, tax, desired)
   years
 end
 
-# Sort Numbers
+# Sort Numbers 7 kyu
 #
 def solution_2(nums)
   if nums.nil?
@@ -125,4 +125,22 @@ def solution_2(nums)
   else 
     nums.sort
   end
+end
+
+# The highest profit wins! 7kyu
+#
+def min_max(lst)
+  return [lst.min, lst.max]
+end
+
+# Repeter 7kyu
+#
+def repeater(string, n)
+  return string * n
+end
+
+# Remove String Spaces 8 kyu
+# 
+def no_space(x)
+  x.delete" "
 end
