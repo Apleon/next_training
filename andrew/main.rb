@@ -98,7 +98,5 @@ puts equation_9(5, 3)
 puts equation_10(2, 1, 2)
 puts equation_11(2, 4, 2)
 puts equation_12(2, 2, 2)
-
-puts'##########################'
-
+puts '##########################'
 puts cond_operator_1(14, 6, 8)
