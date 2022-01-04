@@ -100,4 +100,5 @@ puts equation_11(2, 4, 2)
 puts equation_12(2, 2, 2)
 
 puts'##########################'
+
 puts cond_operator_1(14, 6, 8)
