@@ -112,11 +112,7 @@ end
 # Sort Numbers 7 kyu
 #
 def solution_2(nums)
-  if nums.nil?
-    []
-  else 
-    nums.sort
-  end
+  nums.nil? ? [] : nums.sort
 end
 
 # The highest profit wins! 7kyu
