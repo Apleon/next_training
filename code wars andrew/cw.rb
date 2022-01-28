@@ -41,7 +41,7 @@ end
 # Convert boolean values to strings 'Yes' or 'No' 8kyu
 #
 def bool_to_word(bool)
-  bool = true ? 'Yes' : 'No'
+  bool ? 'Yes' : 'No'
 end
 
 # Basic Mathematical Operations 8kyu
