@@ -35,11 +35,7 @@ end
 # Even or Odd 8kyu
 #
 def even_or_odd(number)
-  if (number % 2).zero
-    puts 'Even'
-  else
-    puts 'Odd'
-  end
+  (number % 2).zero ? 'Even' : 'Odd'
 end
 
 # Convert boolean values to strings 'Yes' or 'No' 8kyu
